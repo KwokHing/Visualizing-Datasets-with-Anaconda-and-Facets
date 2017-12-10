@@ -90,6 +90,6 @@ Facets Overview provides a quick understanding of the distribution of values acr
 
 Common data issues that can hamper machine learning are pushed to the forefront, such as: unexpected feature values, features with high percentages of missing values, features with unbalanced distributions, and feature distribution skew between datasets.
 
-###Known Issues
+### Known Issues ###
 
 The Facets visualizations currently work only in Chrome browsers
