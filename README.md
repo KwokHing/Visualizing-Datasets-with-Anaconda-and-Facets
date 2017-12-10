@@ -9,7 +9,7 @@ To use the visualization capabilities, you will have to add an nbextension. Ther
 
 In which case 'facets-dist' is the path to the respective folder. 
 
-If the above command still does not show the visualizations on the notebook, copy the file called facets-jupyter.html in 'facets/facets-dist' folder your local anaoconda file path '[anaconda_path]/share/jupyter/nbextensions/'. This is a known issue https://github.com/PAIR-code/facets/issues/41
+If the above command still does not show the visualizations on the notebook, copy the file called facets-jupyter.html in 'facets/facets-dist' folder your local anaoconda file path _'[anaconda_path]/share/jupyter/nbextensions/'_. This is a known issue https://github.com/PAIR-code/facets/issues/41
 
 You might need to restart jupyter after this and proceed with the vizualisation. For a more detailed installation guide and updates, have a look at:
 
@@ -85,6 +85,9 @@ html = HTML_TEMPLATE.format(protostr=protostr)
 display(HTML(html))
 ```
 
+![png](images/facets-overview-numeric.png)
+
+![png](images/facets-overview-categorical.png)
 
 Facets Overview provides a quick understanding of the distribution of values across the features of their datasets. Multiple datasets, such as a training set and a test set, can also be compared on the same visualization. 
 
